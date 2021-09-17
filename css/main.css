@@ -10,26 +10,51 @@ section {
 }
 
 h1 {
-  color: #7b7d70;
-  font-size: 2em;
+  color:#7b7d70;
+  font-size: 3em;
 }
 
 h2 {
-  color: 	#4eafb8;
+  color:#4eafb8;
   font-size: 1.5em;
 }
 
-p{
-  color: #ff8641;
+p {
+  color:#ff8641;
 }
 
 
-/*-----TABLET STYLES----*/
-@media screen (min-width 765px) {
-  
+/*-----TABLET STYLES------*/
+@media only screen and (min-width: 765px) {
+
+h1 {
+  color:#02cbd2;
+  font-size: 3em;
 }
 
+h2 {
+  color:#fcc02a;
+  font-size: 1.5em;
+}
 
+p {
+  color:#7b8f8e;
+}
+}
+/*------DESKTOP STYLES------*/
+@media only screen and (min-width: 1200px) {
 
-/*-------DESKTOP STYLES-----*/
-@media screen (min-width 1200pxpx)
+h1 {
+  color:#6e4b61;
+  font-size: 3em;
+}
+
+h2 {
+  color:#cabd61;
+  font-size: 1.5em;
+}
+
+p {
+  color:	#c19e74;
+}
+}
